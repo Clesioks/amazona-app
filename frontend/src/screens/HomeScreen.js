@@ -11,7 +11,6 @@ export default function HomeScreen() {
   useEffect(() => {
     const fecthData = async () => {
       try {
-
         setLoading(true)
         const { data } = await axios.get('/api/products')
         setLoading(false)
