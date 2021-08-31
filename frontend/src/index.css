@@ -143,11 +143,21 @@ a.brand {
   padding-left: 20rem;
 }
 
+.min-30 {
+  min-width: 30rem;  
+
+}
+
 
 /* images */
 
 img {
   border-radius: 0.5rem;
+}
+
+img.small {
+  max-width: 5rem;
+  width: 100%;
 }
 
 img.medium {
