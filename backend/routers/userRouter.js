@@ -5,6 +5,7 @@ import User from '../models/userModel.js'
 
 const userRouter = express.Router()
 
+// expressAsyncHandler para não dar erro de duplicação
 userRouter.get('/seed', expressAsyncHandler(async (req, res) => {
     // remove todos usuários
     //await User.remove({})
